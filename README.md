@@ -29,8 +29,7 @@ Contador/
 1. Clone o repositório:
 
    ```
-   git clone https://github.com/seu-usuario/contador.git
-   ```
+   git clone 
 
 2. Acesse o diretório do projeto:
 
@@ -52,38 +51,3 @@ Contador/
 
 5. O programa solicitará dois números inteiros. Insira o primeiro parâmetro, seguido pelo segundo. Caso o segundo número seja menor ou igual ao primeiro, o programa exibirá uma mensagem de erro. Caso contrário, ele fará a contagem entre os dois números.
 
-## Exemplo de Execução
-
-### Caso os parâmetros sejam válidos:
-
-```
-Digite o primeiro parâmetro
-5
-Digite o segundo parâmetro
-10
-Contando de 5 até 10:
-5
-6
-7
-8
-9
-10
-```
-
-### Caso os parâmetros não sejam válidos:
-
-```
-Digite o primeiro parâmetro
-10
-Digite o segundo parâmetro
-5
-Erro: O segundo parâmetro deve ser maior que o primeiro.
-```
-
-## Exceções
-
-* **ParametrosInvalidosException**: Lançada quando o segundo parâmetro é menor ou igual ao primeiro, indicando que a entrada não é válida para a contagem.
-
-## Licença
-
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
